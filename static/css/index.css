@@ -82,6 +82,18 @@ body {
   display: inline-block;
 }
 
+.author-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.2rem 0.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.author-row:last-child {
+  margin-bottom: 0;
+}
+
 .publication-banner img {
 }
 
